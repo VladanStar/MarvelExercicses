@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 249, 250);
+}
+
+.header {
+  background-color: rgb(32, 32, 32);
+}
+
+input:focus,
+input:hover,
+input:active,
+button:focus,
+button:hover,
+button:active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
